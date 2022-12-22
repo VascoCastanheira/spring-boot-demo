@@ -18,6 +18,6 @@ public class BeanScopeDemoApp {
 
         System.out.println("\nMemory location for alphaCoach: " + alphaCoach);
         //close context
-
+        context.close();
     }
 }
