@@ -14,7 +14,7 @@ public class RandomFortuneService implements FortuneService {
     public String getFortune() {
         int rng = 0;
         Random random  = new Random();
-        rng = random.nextInt(2);
+        rng = random.nextInt(fortunesStrings.length);
         return fortunesStrings[rng];
     }
 }
